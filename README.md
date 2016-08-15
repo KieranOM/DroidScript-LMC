@@ -2,13 +2,9 @@
 
 This is a simplistic Android application written in JavaScript for DroidScript of which can emulate LMC programs.
 
-* * *
-
 ## **DroidScript**
 
 More information on this can be found [here](http://droidscript.org/).
-
-* * *
 
 ## **Little Man Computer**
 

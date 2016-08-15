@@ -261,7 +261,7 @@ function processInstruction( instruction /* instruction = [lbl,opc,opr] */ ) {
             if( accumulator == 0 ) programCounter = memory[0].indexOf( instruction[2] );
             break;
         case "BRP":
-            if( accumulator > 0 ) programCounter = memory[0].indexOf( instruction[2] );
+            if( accumulator >= 0 ) programCounter = memory[0].indexOf( instruction[2] );
             break;
         case "INP":
             accumulator = parseInt( prompt("Enter value:") );
@@ -269,7 +269,7 @@ function processInstruction( instruction /* instruction = [lbl,opc,opr] */ ) {
         case "OUT":
             alert( accumulator );
             break;
-        case "HTL":
+        case "HLT":
             break;
     }
 }
