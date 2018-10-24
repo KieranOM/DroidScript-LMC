@@ -12,13 +12,13 @@ This is a fictional model of the von Neumann architecture that it used, primaril
 It consists of 11 instructions:
 
 **INP** - Input data  
-**ADD **- Add data  
-**SUB **- Subtract data  
-**STA **- Store data  
-**LDA **- Load data  
-**BRA **- Branch to specified cell  
-**BRZ **- If 0, branch to a specified cell  
-**BRP **- If 0 or positive, branch to a specified cell  
-**OUT **- Output data  
-**HLT **- Break execution  
+**ADD** - Add data  
+**SUB** - Subtract data  
+**STA** - Store data  
+**LDA** - Load data  
+**BRA** - Branch to specified cell  
+**BRZ** - If 0, branch to a specified cell  
+**BRP** - If 0 or positive, branch to a specified cell  
+**OUT** - Output data  
+**HLT** - Break execution  
 **DAT** - Treat content as data
